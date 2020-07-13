@@ -138,10 +138,11 @@ img {
 
 .hero {
   margin-bottom: 94px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1600px;
+
   background-image: url(../images/Hero.jpg);
+
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .hero-title,
