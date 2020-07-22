@@ -226,12 +226,12 @@ img {
 }
 
 .features-list-item::before {
+  content: '';
   margin-bottom: 30px;
   display: flex;
-  content: '';
+
   width: 270px;
   height: 120px;
-  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #f5f4fa;
