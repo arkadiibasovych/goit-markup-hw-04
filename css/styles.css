@@ -225,6 +225,35 @@ img {
   margin-right: 30px;
 }
 
+.features-list-item::before {
+  margin-bottom: 30px;
+  display: flex;
+  content: '';
+  width: 270px;
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.icon-details::before {
+  background-image: url(../images/features/antenna.svg);
+}
+
+.icon-punctuality::before {
+  background-image: url(../images/features/clock.svg);
+}
+
+.icon-planning::before {
+  background-image: url(../images/features/diagram.svg);
+}
+
+.icon-hight-tech::before {
+  background-image: url(../images/features/astronaut.svg);
+}
+
 .features-list-title,
 .features-list-description {
   font-size: 14px;
