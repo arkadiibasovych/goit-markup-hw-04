@@ -225,33 +225,16 @@ img {
   margin-right: 30px;
 }
 
-.features-list-item::before {
-  content: '';
+.features-list-icon {
+  display: ;
   margin-bottom: 30px;
   display: flex;
-
   width: 270px;
   height: 120px;
-  background-repeat: no-repeat;
-  background-position: center;
   background-color: #f5f4fa;
   border-radius: 4px;
-}
-
-.icon-details::before {
-  background-image: url(../images/features/antenna.svg);
-}
-
-.icon-punctuality::before {
-  background-image: url(../images/features/clock.svg);
-}
-
-.icon-planning::before {
-  background-image: url(../images/features/diagram.svg);
-}
-
-.icon-hight-tech::before {
-  background-image: url(../images/features/astronaut.svg);
+  justify-content: center;
+  align-items: center;
 }
 
 .features-list-title,
@@ -280,10 +263,6 @@ img {
 .lesson-list {
   display: flex;
 }
-
-/* .lesson-list-img {
-  margin-bottom: -70px;
-} */
 
 .lesson-list,
 .lesson-list-description {
