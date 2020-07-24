@@ -426,6 +426,20 @@ img {
   margin-right: 30px;
 }
 
+.clients-list-link-svg {
+  fill: #afb1b8;
+}
+
+.clients-list-link:hover,
+.clients-list-link:focus {
+  border: 1px solid var(--accent-color);
+}
+
+.clients-list-link:hover .clients-list-link-svg,
+.clients-list-link:focus .clients-list-link-svg {
+  fill: var(--accent-color);
+}
+
 /* Портфолио */
 .filter {
   margin-top: 94px;
