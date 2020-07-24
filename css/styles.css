@@ -124,16 +124,39 @@ img {
   letter-spacing: 0.02em;
 }
 
+.address-list-item {
+  display: flex;
+  align-items: center;
+}
+
+.icon-mail {
+  align-items: baseline;
+}
+
 .adress-list-link {
   color: #757575;
 }
 
+.address-list-item-svg {
+  margin-right: 10px;
+  fill: #757575;
+}
+
 .navigation-list-link:hover,
-.navigation-list-link:focus,
-.adress-list-link:hover,
-.adress-list-link:focus {
+.navigation-list-link:focus {
   color: var(--accent-color);
 }
+
+.address-list-item:hover .address-list-item-svg,
+.address-list-item:focus .address-list-item-svg {
+  fill: var(--accent-color);
+}
+
+.address-list-item:hover .adress-list-link,
+.address-list-item:focus .adress-list-link {
+  color: var(--accent-color);
+}
+
 /* Герой */
 
 .hero {
